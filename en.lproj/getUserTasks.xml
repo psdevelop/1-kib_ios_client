@@ -1,0 +1,16 @@
+﻿<root_tag><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header/>
+	<soap:Body> <m:getUserTasksResponse xmlns:m="http://www.xmlaccount.org/UniDocPerformList/">
+	<m:return xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<m:indicator counter="7"
+				message="СуммаСВысокойВажностью"
+				min_date="2009-01-28T22:39:43"
+				max_date="2010-05-13T10:58:40"/>
+		<m:indicator counter="28"
+				message="СуммаСоСреднейИлиНизкойВажностью"/>
+		<m:indicator counter="21"
+				message="СуммаСверхБюджета"/>
+	</m:return>
+</m:getUserTasksResponse></soap:Body>
+</soap:Envelope></root_tag>

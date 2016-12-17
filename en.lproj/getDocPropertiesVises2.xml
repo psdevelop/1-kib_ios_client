@@ -1,0 +1,59 @@
+﻿<root_tag><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header/>
+	<soap:Body> <m:getDocPropertiesResponse xmlns:m="http://www.xmlaccount.org/UniDocPerformList/">
+	<m:return xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			doc_id="c7dff612-a065-11df-9bdf-00155868f31f">
+		<m:statement_list>
+			<m:statement_item vise="Финансовый директор"
+					post=""
+					person_names=""
+					solution="Согласовано"
+					statement_actor="Агличев В.В."
+					set_date="2010-08-05T15:19:16"
+					set_max_date="0001-01-01T00:00:00"
+					comment=""
+					is_manual="false"/>
+			<m:statement_item vise="Юридический департамент"
+					post=""
+					person_names="Скворцов Павел Андреевич"
+					solution="Согласовано"
+					statement_actor="Агличев В.В."
+					set_date="2010-08-05T15:19:14"
+					set_max_date="0001-01-01T00:00:00"
+					comment=""
+					is_manual="false"/>
+			<m:statement_item vise="Вице - президент - руководитель Комплекса финансов и инвестиций "
+					post=""
+					person_names="Агличев В.В."
+					solution="Согласовано"
+					statement_actor="Агличев В.В."
+					set_date="2010-08-05T15:19:18"
+					set_max_date="0001-01-01T00:00:00"
+					comment=""
+					is_manual="false"/>
+			<m:statement_item vise="Главный бухгалтер"
+					post=""
+					person_names="Петрова Марианна Александровна"
+					solution="Согласовано"
+					statement_actor="Агличев В.В."
+					set_date="2010-08-05T15:19:15"
+					set_max_date="0001-01-01T00:00:00"
+					comment=""
+					is_manual="false"/>
+			<m:statement_item vise="Начальник Казначейства"
+					post=""
+					person_names="Романов Олег Григорьевич"
+					solution="Согласовано"
+					statement_actor="Агличев В.В."
+					set_date="2010-08-05T15:19:16"
+					set_max_date="0001-01-01T00:00:00"
+					comment=""
+					is_manual="false"/>
+		</m:statement_list>
+		<m:success_value result_text="Без результата"
+				logical_value="Без результата"
+				doc_id="c7dff612-a065-11df-9bdf-00155868f31f"/>
+	</m:return>
+</m:getDocPropertiesResponse></soap:Body>
+</soap:Envelope></root_tag>

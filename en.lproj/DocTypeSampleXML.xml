@@ -1,0 +1,8 @@
+<doc_types>
+    <doc_type doc_type_id="1" name="Заявки на расходование ДС" description="Заявки на расходование ДС" img_file="">
+    </doc_type>
+    <doc_type doc_type_id="2" name="Заявки на расходование ДС(Общие)" description="Заявки на расходование ДС(Общие)" img_file="">
+    </doc_type>
+    <doc_type doc_type_id="3" name="Реестры платежей" description="Реестры платежей" img_file="">
+    </doc_type>
+</doc_types>

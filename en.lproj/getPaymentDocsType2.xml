@@ -1,0 +1,85 @@
+﻿<root_tag><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header/>
+	<soap:Body> <m:getPaymentDocsResponse xmlns:m="http://www.xmlaccount.org/UniDocPerformList/">
+	<m:return xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			last_datetime="2009-01-15T13:35:23"
+			last_uuid="36c21236-e2f0-11dd-b081-001d7d3af820">
+		<m:doc_list>
+			<m:sel_doc pay_target_manage=""
+					pay_target="Выплаты на содержание эксплуатируемой и коммерческой недвижимости"
+					is_exchequer="false"
+					no_include_in_pay_plan="false"
+					list_index="1"
+					comment=""
+					enable_statement_set="false"
+					doc_type_id="2"
+					doc_summ="100000"
+					charge_max_date="0001-01-01T00:00:00"
+					charge_date="2009-01-15T00:00:00"
+					statement_date="2009-02-20T13:33:40"
+					statement_state="Рабочая"
+					create_date="2009-01-14T16:43:48"
+					doc_code="000000001"
+					doc_name="Заявка на расходование денежных средств(Общая)"
+					doc_id="5e7cfc4b-e241-11dd-b07e-001d7d3af820">
+				<m:doc_type doc_type_id="2"
+						doc_type_name="Заявки на расходование средств(Общая)"
+						doc_type_single_representation="Заявка на расходование средств(Общая)"/>
+				<m:payment_form payment_form_name="Безналичные"/>
+				<m:doc_order_type order_type_id="-1"
+						order_type_name="Плановая"/>
+				<m:executor actor_name="Агличев В.В."/>
+				<m:responsible_person actor_name="Агличев В.В."/>
+				<m:organization contragent_name="ОАО ПромСтрой"/>
+				<m:scenary scenary_name="Годовой по месяцам"/>
+				<m:turn_account account_name="Выплаты на содержание эксплуатируемой и коммерческой недвижимости"/>
+				<m:project project_name="Лизинг"/>
+				<m:nomenclature_group nomenclature_group_name=""/>
+				<m:charge_currency currency_name="руб."/>
+				<m:add_price_tax taxe_name=""
+						taxe_abs_value="15254.24"/>
+				<m:cfo contragent_name="Департамент управления корпоративной собственностью"/>
+			</m:sel_doc>
+			<m:sel_doc pay_target_manage=""
+					pay_target="Текст назначения платежа"
+					is_exchequer="false"
+					no_include_in_pay_plan="false"
+					list_index="2"
+					comment=""
+					enable_statement_set="false"
+					doc_type_id="2"
+					doc_summ="1000"
+					charge_max_date="0001-01-01T00:00:00"
+					charge_date="2009-01-16T00:00:00"
+					statement_date="2009-02-20T13:33:59"
+					statement_state="Рабочая"
+					create_date="2009-01-15T13:35:23"
+					doc_code="000000002"
+					doc_name="Заявка на расходование денежных средств(Общая)"
+					doc_id="36c21236-e2f0-11dd-b081-001d7d3af820">
+				<m:doc_type doc_type_id="2"
+						doc_type_name="Заявки на расходование средств(Общая)"
+						doc_type_single_representation="Заявка на расходование средств(Общая)"/>
+				<m:payment_form payment_form_name="Безналичные"/>
+				<m:doc_order_type order_type_id="-1"
+						order_type_name="Плановая"/>
+				<m:executor actor_name="Агличев В.В."/>
+				<m:responsible_person actor_name="Агличев В.В."/>
+				<m:organization contragent_name="Торговый дом &quot;Комплексный&quot;"/>
+				<m:scenary scenary_name="Годовой по месяцам"/>
+				<m:turn_account account_name="Выплаты по ФОТ производственного персонала"/>
+				<m:project project_name="Лизинг"/>
+				<m:nomenclature_group nomenclature_group_name=""/>
+				<m:charge_currency currency_name="руб."/>
+				<m:add_price_tax taxe_name=""
+						taxe_abs_value="152.54"/>
+				<m:cfo contragent_name="Отдел поддержки"/>
+			</m:sel_doc>
+			<m:curr_user_info login="Агличев В.В.                                      "/>
+		</m:doc_list>
+		<m:success_value result_text="Данные документов получены"
+				logical_value="Выполнено"/>
+	</m:return>
+</m:getPaymentDocsResponse></soap:Body>
+</soap:Envelope></root_tag>
